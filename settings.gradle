@@ -1,0 +1,4 @@
+include ':wollz-app'
+include ':services-middleware'
+
+rootProject.name = 'ez.wollz'

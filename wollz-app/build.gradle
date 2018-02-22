@@ -1,0 +1,14 @@
+apply plugin: 'application'
+
+mainClassName = 'ez.wollz.WollzApp'
+
+// Minimum jvmTarget of 1.8 needed since Kotlin 1.1
+compileKotlin {
+    kotlinOptions.jvmTarget= 1.8
+}
+
+dependencies {
+    compile "no.tornado:tornadofx:$TORNADO_FX_VERSION"
+    compile "com.jfoenix:jfoenix:$JFOENIX_VERSION"
+    compile "no.tornado:tornadofx-controlsfx:$TORNADO_FX_CONTROLS_FXVERSION"
+}
