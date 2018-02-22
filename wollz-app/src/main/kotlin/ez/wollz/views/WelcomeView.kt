@@ -18,15 +18,15 @@ class WelcomeView : View() {
 			textAlignment = TextAlignment.CENTER
 			isFillWidth = true
 
-			text("Hello, ") {
+			text("Hello,  <<") {
 				fill = Color.web("#333333")
 				font = Font(18.0)
 			}
-			text("World!") {
+			text("World") {
 				fill = Color.ORANGE
 				font = Font(16.0)
 			}
-			text("Hello, ") {
+			text(">>  !") {
 				fill = Color.web("#333333")
 				font = Font(18.0)
 			}
